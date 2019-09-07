@@ -1,4 +1,5 @@
 import greenfoot.*;
+
 public class Herocy extends World
 {
 String[][] Spielfeld=new String[21][11];
@@ -9,8 +10,8 @@ Heiler H;Fee F;Markt M;Kiosk K;
 public Herocy()
 {
 super(20,11,40); // Spielfeld 20x10 Felder; Jedes Feld 40x40 Pixel
-Zeile[1]= "                    ";
-Zeile[2]= "                   F";
+Zeile[1]= "                   F";
+Zeile[2]= "                    ";
 Zeile[3]= "XXXXXXXXXXXXXXX  XXX";
 Zeile[4]= "                    ";
 Zeile[5]= "                    ";
@@ -54,6 +55,9 @@ for(int i=1;i<=10;i++)
     } // for a
 } // for i
 HeldenInitialisieren();
+//Greenfoot.playSound("music.wav");
+super.setBackground("background.png");
+
 } // Konstruktor
 public void HeldenInitialisieren()
 {
@@ -62,4 +66,5 @@ addObject(Held1,3,9);
 Held2=new Held(2,"cyGuy");
 addObject(Held2,1,9);
 } // HeldenInitialisiere
+
 } // class Herocy
