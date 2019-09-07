@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Wartezimmer
+comment1.params=pH
+comment1.target=void\ anstellen(Held)
+comment2.params=
+comment2.target=Held\ ersterRaus()
+comment3.params=
+comment3.target=boolean\ nichtleer()
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Held
+comment1.params=pSpielernummer\ pName
+comment1.target=Held(int,\ java.lang.String)
+comment2.params=pW
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=void\ geheNachOsten()
+numComments=4
