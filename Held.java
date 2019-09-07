@@ -16,7 +16,7 @@ Spielernummer=pSpielernummer;
 Name=pName;
 //HC=pHC;
 setImage("Held"+Spielernummer+".png"); // Für jeden Helden ein eignes Bild!
-                                        // z.B. 'Held3.png' für den 3. Helden    
+                                        // z.B. 'Held3.png' für den 3. Helden
 } // Konstuktor
 public void addedToWorld(World pW)
 {
@@ -30,6 +30,15 @@ if(!HC.Spielfeld[getX()+2][getY()].equals("X"))
     setRotation(0);
     move(1);
 } // if
-
 } // geheNachOsten
-} // class Held 
+
+public void geheNachWesten()
+{
+if(!HC.Spielfeld[getX()][getY()].equals("X"))
+{
+    setRotation(0);
+    move(-1);
+} // if
+}//geheNachWesten
+
+} // class Held

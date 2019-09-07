@@ -6,4 +6,6 @@ comment2.params=pW
 comment2.target=void\ addedToWorld(greenfoot.World)
 comment3.params=
 comment3.target=void\ geheNachOsten()
-numComments=4
+comment4.params=
+comment4.target=void\ geheNachWesten()
+numComments=5
