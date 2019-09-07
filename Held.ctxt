@@ -8,6 +8,4 @@ comment3.params=
 comment3.target=void\ geheNachOsten()
 comment4.params=
 comment4.target=void\ geheNachWesten()
-comment5.params=
-comment5.target=void\ geheNachKEY()
-numComments=6
+numComments=5
