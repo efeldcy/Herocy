@@ -1,5 +1,5 @@
 #Greenfoot project file
-class.Fee.image=Fee.png
+class.Fee.image=shy_guy.png
 class.Heiler.image=man.png
 class.Hindernis.image=Hindernis.png
 dependency1.from=Herocy
@@ -55,7 +55,7 @@ readme.name=@README
 readme.width=47
 readme.x=10
 readme.y=10
-simulation.speed=50
+simulation.speed=51
 target1.height=50
 target1.name=Heiler
 target1.showInterface=false
@@ -129,5 +129,5 @@ target9.y=0
 version=3.0.0
 width=1045
 world.lastInstantiated=Herocy
-xPosition=433
-yPosition=274
+xPosition=66
+yPosition=222
