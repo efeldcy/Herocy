@@ -2,10 +2,10 @@
 comment0.target=Held
 comment1.params=pSpielernummer\ pName
 comment1.target=Held(int,\ java.lang.String)
-comment2.params=pW
-comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
 comment3.params=
-comment3.target=void\ geheNachOsten()
-comment4.params=
-comment4.target=void\ geheNachWesten()
+comment3.target=void\ KeyListener()
+comment4.params=pW
+comment4.target=void\ addedToWorld(greenfoot.World)
 numComments=5
