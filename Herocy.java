@@ -12,13 +12,13 @@ public Herocy()
 super(20,11,40); // Spielfeld 20x10 Felder; Jedes Feld 40x40 Pixel
 Zeile[1]= "                   F";
 Zeile[2]= "                    ";
-Zeile[3]= "XXXXXXXXXXXXXXX  XXX";
-Zeile[4]= "                    ";
-Zeile[5]= "                    ";
-Zeile[6]= "                    ";
-Zeile[7]= "                 H M";
+Zeile[3]= "XXXXXXXXXXXXXXXXLXXX";
+Zeile[4]= "                L   ";
+Zeile[5]= "                L   ";
+Zeile[6]= "                L   ";
+Zeile[7]= "                L HM";
 Zeile[8]= "             XXXXXXX";
-Zeile[9]= "          XXXXXXXXXX";
+Zeile[9]= "X         XXXXXXXXXX";
 Zeile[10]="XXXXXXXXXXXXXXXXXXXX";
 
 for(int i=1;i<=10;i++)
@@ -31,6 +31,11 @@ for(int i=1;i<=10;i++)
         {
             Hindernis H=new Hindernis();
             addObject(H,a,i);
+        } // if
+        if(Symbol.equals("L"))
+        {
+            Leiter L=new Leiter();
+            addObject(L,a,i);
         } // if
         if(Symbol.equals("F"))
         {
@@ -63,8 +68,8 @@ public void HeldenInitialisieren()
 {
 Held1=new Held(1,"Herocy");
 addObject(Held1,3,9);
-Held2=new Held(2,"cyGuy");
-addObject(Held2,1,9);
+//Held2=new Held(2,"cyGuy");
+//addObject(Held2,1,9);
 } // HeldenInitialisiere
 
 } // class Herocy
